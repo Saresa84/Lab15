@@ -39,6 +39,7 @@ public class CountriesTextFile {
 				System.out.println(line);
 				line = in.readLine();
 		}
+		in.close();
 		}
 		catch (IOException e)
 		{
